@@ -1,0 +1,83 @@
+                body {
+                    font-family: 'Merriweather', serif !important;
+                    background-image: url('background5.jpg');
+                    /* height: 100%; */
+                    background-position: center;
+                }
+        
+                nav{
+                  width: 100%;
+                  height: 75px;
+                  background-color: none;
+                  line-height: 75px;
+                  padding:0px 100px;
+                  position:fixed;
+                  z-index: 1;
+                }
+                nav .logo{
+                  font-size: 30px;
+                  font-weight: bold;
+                  font-family: Arial, Helvetica, sans-serif;
+                  letter-spacing: 1.5px; 
+                }
+                nav .logo p{
+                  float: left;
+                  color:#fff;
+                  text-transform: uppercase;
+                }
+                nav ul{
+                  float: right;
+                }
+                nav ul li{
+                  display: inline-block;
+                  list-style: none;
+                }
+                nav ul li a{
+                  color:#fff;
+                  text-decoration: none;
+                  font-size: 18px;
+                  text-transform: uppercase;
+                  padding:0px 32px;
+                }
+                nav ul li a:hover{
+                  color:#c0d96f;
+                }
+                nav ul li .active{
+                  color:#c0d96f;
+                
+                }
+                .container {
+                    color: #ececec;
+                }
+                
+                nav.nav-item.nav-link {
+                    color: white !important;
+                }
+                
+                .r-name {
+                    font-family: 'Cinzel Decorative', cursive;
+                    font-weight: 700;
+                }
+                
+                .submit-button {
+                    border-radius: 25px;
+                    border: 2px solid rgba(0, 0, 0, 0.8);
+                    background: rgba(0, 0, 0, 0.4);
+                    color: white;
+                    padding: 5px 20px;
+                    transition: all 400ms ease-out;
+                }
+                
+                .submit-button:hover {
+                    background: rgb(4, 110, 119, 0.8);
+                    color: #FEFFFF;
+                    border: 2px solid rgb(4, 110, 119);
+                }
+                
+                .fa-github:hover {
+                    color: rgb(65, 5, 65);
+                }
+                
+                .fa-linkedin-square:hover {
+                    color: rgb(47, 5, 145);
+                }
