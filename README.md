@@ -16,11 +16,11 @@ To install and run the project on your local system, following are the requireme
 Make sure you have the following libraries installed in your python environment :
 ```sh
  
-Flask==1.1.2
-numpy==1.19.2
-pandas==1.1.3
-python-dateutil==2.8.1
-pytz==2020.1
+flask
+numpy
+pandas
+python-dateutil
+pytz
 sklearn
  
 ```
@@ -40,21 +40,40 @@ The two main pages are:
 
 The user can enter the following information on the home page:
 
-1)No. of guests
-2)Min Budget
-3)Max Budget
-4)Cuisine Preference
-5)Locality
+1) No. of guests
+2) Min Budget
+3) Max Budget
+4) Cuisine Preference
+5) Locality
 
 The search page shows the list of recommended restaurants for the user. Each restaurant in the list comes with the following information:
 
-1)Name of the restaurant
-2)Rating of the restaurant
-3)Location of the restaurant
-4)Timings of the restaurant
+1) Name of the restaurant
+2) Rating of the restaurant
+3) Location of the restaurant
+4) Timings of the restaurant
 
 
 ### FoodFinder Photos
+
+
+![](images/Project%201.png)
+![](images/Project%202.png)
+
+### Getting started
+
+After downloading source code files from this repo, perform the following steps:
+<br><br>
+
+1. Install Vs Code on the system
+
+2. Ensure all the imported libraries are installed on the system
+
+3. Search for the app.py file and run it
+
+4. After you run the file the website will be avilable at the local host http://127.0.0.1:5000. Click on this localhost server on the web app is ready to use.
+
+
 
 
 
